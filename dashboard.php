@@ -1,6 +1,8 @@
-<?php include_once("include/header.php") ?>
-<?php include_once("include/topbar.php") ?>
-<?php include_once("include/sidebar.php") ?>
+<?php
+ include_once("include/header.php"); 
+ include_once("include/topbar.php"); 
+ include_once("include/sidebar.php");
+ ?>
 
    
 
