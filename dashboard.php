@@ -1,7 +1,10 @@
 <?php
- include_once("include/header.php"); 
- include_once("include/topbar.php"); 
- include_once("include/sidebar.php");
+   
+  
+ include_once("config/config.php");
+ include_once(DIR_URL."include/header.php"); 
+ include_once(DIR_URL."include/topbar.php"); 
+ include_once(DIR_URL."include/sidebar.php");
  ?>
 
    
@@ -243,4 +246,4 @@
 <!-- Main content end -->
 
 
-    <?php include_once("include/footer.php") ?>
+    <?php include_once(DIR_URL."include/footer.php") ?>

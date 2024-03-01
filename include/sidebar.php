@@ -42,12 +42,12 @@
                         <div>
                             <ul class="navbar-nav ps-3">
                                 <li>
-                                    <a href="./add-book.html" class="nav-link ">
+                                    <a href="<?php echo BASE_URL ?>books/add-books.php" class="nav-link ">
                                         <i class="fa-solid fa-plus me-2"></i> Add New
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="manage-books.html" class="nav-link ">
+                                    <a href="<?php echo BASE_URL ?>books" class="nav-link ">
                                         <i class="fa-solid fa-list me-2"></i> Manage All
                                     </a>
                                 </li>
